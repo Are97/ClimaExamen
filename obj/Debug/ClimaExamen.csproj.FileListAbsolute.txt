@@ -1,0 +1,13 @@
+C:\Users\pablo\Documents\Visual Studio 2017\Projects\ClimaExamen\ClimaExamen\bin\Debug\ClimaExamen.exe.config
+C:\Users\pablo\Documents\Visual Studio 2017\Projects\ClimaExamen\ClimaExamen\bin\Debug\ClimaExamen.exe
+C:\Users\pablo\Documents\Visual Studio 2017\Projects\ClimaExamen\ClimaExamen\bin\Debug\ClimaExamen.pdb
+C:\Users\pablo\Documents\Visual Studio 2017\Projects\ClimaExamen\ClimaExamen\obj\Debug\ClimaExamen.csprojAssemblyReference.cache
+C:\Users\pablo\Documents\Visual Studio 2017\Projects\ClimaExamen\ClimaExamen\obj\Debug\ClimaExamen.Form1.resources
+C:\Users\pablo\Documents\Visual Studio 2017\Projects\ClimaExamen\ClimaExamen\obj\Debug\ClimaExamen.Properties.Resources.resources
+C:\Users\pablo\Documents\Visual Studio 2017\Projects\ClimaExamen\ClimaExamen\obj\Debug\ClimaExamen.csproj.GenerateResource.cache
+C:\Users\pablo\Documents\Visual Studio 2017\Projects\ClimaExamen\ClimaExamen\obj\Debug\ClimaExamen.csproj.CoreCompileInputs.cache
+C:\Users\pablo\Documents\Visual Studio 2017\Projects\ClimaExamen\ClimaExamen\obj\Debug\ClimaExamen.exe
+C:\Users\pablo\Documents\Visual Studio 2017\Projects\ClimaExamen\ClimaExamen\obj\Debug\ClimaExamen.pdb
+C:\Users\pablo\Documents\Visual Studio 2017\Projects\ClimaExamen\ClimaExamen\bin\Debug\RestSharp.dll
+C:\Users\pablo\Documents\Visual Studio 2017\Projects\ClimaExamen\ClimaExamen\bin\Debug\RestSharp.xml
+C:\Users\pablo\Documents\Visual Studio 2017\Projects\ClimaExamen\ClimaExamen\obj\Debug\ClimaExamen.csproj.CopyComplete
