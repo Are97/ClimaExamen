@@ -1,4 +1,5 @@
-﻿using ClimaExamen.ServicesAPI;
+﻿using ClimaExamen.ConexionBD;
+using ClimaExamen.ServicesAPI;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace ClimaExamen
 {
@@ -40,6 +42,7 @@ namespace ClimaExamen
 
         private void bAceptarRegistro_Click(object sender, EventArgs e)
         {
+            //Conexion a Bd procedimiento registro
             labelLogIn.Visible = true;
             labelRegistro.Visible = false;
             tbContraLogin.Visible = true;
@@ -77,6 +80,8 @@ namespace ClimaExamen
             }
             else
             {
+                //Conexion a bd procedimiento logi
+                
                 tbCorreoLogin.Text = "";
                 tbContraLogin.Text = "";
                 labelLogIn.Visible = false;

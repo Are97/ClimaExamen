@@ -125,6 +125,7 @@
             // 
             this.tbContraLogin.Location = new System.Drawing.Point(79, 91);
             this.tbContraLogin.Name = "tbContraLogin";
+            this.tbContraLogin.PasswordChar = '*';
             this.tbContraLogin.Size = new System.Drawing.Size(171, 20);
             this.tbContraLogin.TabIndex = 8;
             // 
@@ -147,6 +148,7 @@
             // 
             this.tbContraRegistro.Location = new System.Drawing.Point(79, 91);
             this.tbContraRegistro.Name = "tbContraRegistro";
+            this.tbContraRegistro.PasswordChar = '*';
             this.tbContraRegistro.Size = new System.Drawing.Size(171, 20);
             this.tbContraRegistro.TabIndex = 11;
             this.tbContraRegistro.Visible = false;
