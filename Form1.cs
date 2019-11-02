@@ -56,8 +56,8 @@ namespace ClimaExamen
         private void bAgregarCiudad_Click(object sender, EventArgs e)
         {
             IProxy proxy = new Proxy();
-            string ciudad = textBox1.Text;
-            var response = proxy.weather(ciudad);
+            //string ciudad = textBox1.Text;
+            var response = proxy.weather("rome");
             Console.WriteLine($"Ciudad: {response.name}");
             Console.WriteLine($"Temp min: {response.main.temp_min}");
             Console.WriteLine($"Temp max: {response.main.temp_max}");

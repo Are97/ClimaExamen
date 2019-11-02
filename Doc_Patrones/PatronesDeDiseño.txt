@@ -1,0 +1,11 @@
+﻿Clima Examen
+Patrones de Diseño
+
+Singleton: Se usó este patrón de diseño para hacer la conexión a base de datos.
+Se optó por este patrón por seguridad, que no se pueda ingresar a la base de datos más de un cliente, 
+previene que nadie pueda crear copias adicionales. Singleton nos permite crear una única instancia, solo una vez.
+
+
+Proxy: Se usó este patrón para el consumo de la API ya que Proxy te permite usar una misma interfaz 
+y poder tener comportamientos totalmente diferentes. Una interfaz hacia un recurso en particular. 
+Con esto podemos tener una interfaz para el consumo de la API y poderle dar diferentes usos.
