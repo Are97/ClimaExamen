@@ -56,31 +56,45 @@ namespace ClimaExamen
         private void bAgregarCiudad_Click(object sender, EventArgs e)
         {
             IProxy proxy = new Proxy();
-            //string ciudad = textBox1.Text;
-            var response = proxy.weather("rome");
-            Console.WriteLine($"Ciudad: {response.name}");
-            Console.WriteLine($"Temp min: {response.main.temp_min}");
-            Console.WriteLine($"Temp max: {response.main.temp_max}");
-            MessageBox.Show($"Ciudad: {response.name}\nTemp min: {response.main.temp_min}\nTemp max: {response.main.temp_max}");
+            if(textBox1.Text == "")
+            {
+                MessageBox.Show("Favor de escribir la ciudad");
+            }
+            else
+            {
+                string ciudad = textBox1.Text;
+                var response = proxy.weather("rome");
+                MessageBox.Show($"Ciudad: {response.name}\nTemp min: {response.main.temp_min}\nTemp max: {response.main.temp_max}");
+                textBox1.Text = "";
+            }
         }
 
         private void bAceptarLogin_Click(object sender, EventArgs e)
         {
-            labelLogIn.Visible = false;
-            labelRegistro.Visible = false;
-            tbContraLogin.Visible = false;
-            tbContraRegistro.Visible = false;
-            tbCorreoLogin.Visible = false;
-            tbCorreoRegistro.Visible = false;
-            bAceptarLogin.Visible = false;
-            bAceptarRegistro.Visible = false;
-            labelCuenta.Visible = false;
-            bRegistrate.Visible = false;
-            bAgregarCiudad.Visible = true;
-            labelContrasena.Visible = false;
-            labelCorreo.Visible = false;
-            bRegresar.Visible = true;
-            
+            if(tbContraLogin.Text == "" && tbCorreoLogin.Text == "")
+            {
+                MessageBox.Show("Usuario ó contraseña incorrectos");
+            }
+            else
+            {
+                tbCorreoLogin.Text = "";
+                tbContraLogin.Text = "";
+                labelLogIn.Visible = false;
+                labelRegistro.Visible = false;
+                tbContraLogin.Visible = false;
+                tbContraRegistro.Visible = false;
+                tbCorreoLogin.Visible = false;
+                tbCorreoRegistro.Visible = false;
+                bAceptarLogin.Visible = false;
+                bAceptarRegistro.Visible = false;
+                labelCuenta.Visible = false;
+                bRegistrate.Visible = false;
+                bAgregarCiudad.Visible = true;
+                labelContrasena.Visible = false;
+                labelCorreo.Visible = false;
+                bRegresar.Visible = true;
+                textBox1.Visible = true;
+            }
         }
 
         private void bRegresar_Click(object sender, EventArgs e)
@@ -99,6 +113,7 @@ namespace ClimaExamen
             labelContrasena.Visible = true;
             labelCorreo.Visible = true;
             bRegresar.Visible = false;
+            textBox1.Visible = false;
         }
     }
 }

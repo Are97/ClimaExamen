@@ -54,14 +54,16 @@
             this.bPruebas.TabIndex = 0;
             this.bPruebas.Text = "Pruebas";
             this.bPruebas.UseVisualStyleBackColor = true;
+            this.bPruebas.Visible = false;
             this.bPruebas.Click += new System.EventHandler(this.bPruebas_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(584, 158);
+            this.textBox1.Location = new System.Drawing.Point(452, 12);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(171, 20);
             this.textBox1.TabIndex = 1;
+            this.textBox1.Visible = false;
             // 
             // labelLogIn
             // 
@@ -172,7 +174,7 @@
             // 
             // bAgregarCiudad
             // 
-            this.bAgregarCiudad.Location = new System.Drawing.Point(455, 12);
+            this.bAgregarCiudad.Location = new System.Drawing.Point(465, 54);
             this.bAgregarCiudad.Name = "bAgregarCiudad";
             this.bAgregarCiudad.Size = new System.Drawing.Size(146, 23);
             this.bAgregarCiudad.TabIndex = 14;
@@ -183,7 +185,7 @@
             // 
             // bRegresar
             // 
-            this.bRegresar.Location = new System.Drawing.Point(635, 12);
+            this.bRegresar.Location = new System.Drawing.Point(500, 89);
             this.bRegresar.Name = "bRegresar";
             this.bRegresar.Size = new System.Drawing.Size(75, 23);
             this.bRegresar.TabIndex = 15;
