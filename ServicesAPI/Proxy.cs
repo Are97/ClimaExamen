@@ -10,8 +10,9 @@ namespace ClimaExamen.ServicesAPI
 {
     class Proxy : IProxy
     {
+        //b1e34d4d55487b41db609a28e5854900
         private RestClient _client;
-        private string appid = "b1e34d4d55487b41db609a28e5854900";
+        private string appid = "807e039bd90c3a40ac224637ffd000fb";
         private string metrics = "metric";
         public Proxy()
         {

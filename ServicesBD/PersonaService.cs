@@ -16,9 +16,9 @@ namespace ClimaExamen.ServicesBD
             _dataService = new PersonaDataService(connectionString);
         }
 
-        //public List<Persona> getidpersona()
-        //{
-        //    return _dataService.getidpersona();
-        //}
+        public void getidpersona()
+        {
+           // return _dataService.getidpersona();
+        }
     }
 }
