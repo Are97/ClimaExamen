@@ -42,6 +42,8 @@
             this.tbContraRegistro = new System.Windows.Forms.TextBox();
             this.bAceptarRegistro = new System.Windows.Forms.Button();
             this.labelRegistro = new System.Windows.Forms.Label();
+            this.bAgregarCiudad = new System.Windows.Forms.Button();
+            this.bRegresar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bPruebas
@@ -96,6 +98,7 @@
             this.bAceptarLogin.TabIndex = 5;
             this.bAceptarLogin.Text = "Aceptar";
             this.bAceptarLogin.UseVisualStyleBackColor = true;
+            this.bAceptarLogin.Click += new System.EventHandler(this.bAceptarLogin_Click);
             // 
             // labelCuenta
             // 
@@ -167,11 +170,35 @@
             this.labelRegistro.Text = "Registro";
             this.labelRegistro.Visible = false;
             // 
+            // bAgregarCiudad
+            // 
+            this.bAgregarCiudad.Location = new System.Drawing.Point(455, 12);
+            this.bAgregarCiudad.Name = "bAgregarCiudad";
+            this.bAgregarCiudad.Size = new System.Drawing.Size(146, 23);
+            this.bAgregarCiudad.TabIndex = 14;
+            this.bAgregarCiudad.Text = "Agregar Ciudad";
+            this.bAgregarCiudad.UseVisualStyleBackColor = true;
+            this.bAgregarCiudad.Visible = false;
+            this.bAgregarCiudad.Click += new System.EventHandler(this.bAgregarCiudad_Click);
+            // 
+            // bRegresar
+            // 
+            this.bRegresar.Location = new System.Drawing.Point(635, 12);
+            this.bRegresar.Name = "bRegresar";
+            this.bRegresar.Size = new System.Drawing.Size(75, 23);
+            this.bRegresar.TabIndex = 15;
+            this.bRegresar.Text = "Regresar";
+            this.bRegresar.UseVisualStyleBackColor = true;
+            this.bRegresar.Visible = false;
+            this.bRegresar.Click += new System.EventHandler(this.bRegresar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.bRegresar);
+            this.Controls.Add(this.bAgregarCiudad);
             this.Controls.Add(this.labelRegistro);
             this.Controls.Add(this.bAceptarRegistro);
             this.Controls.Add(this.tbContraRegistro);
@@ -209,6 +236,8 @@
         private System.Windows.Forms.TextBox tbContraRegistro;
         private System.Windows.Forms.Button bAceptarRegistro;
         private System.Windows.Forms.Label labelRegistro;
+        private System.Windows.Forms.Button bAgregarCiudad;
+        private System.Windows.Forms.Button bRegresar;
     }
 }
 
